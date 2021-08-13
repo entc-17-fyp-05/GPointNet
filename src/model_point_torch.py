@@ -234,7 +234,7 @@ def parse_config():
     parser.add_argument('-drop_last', action='store_true')
     parser.add_argument('-mode', type=str, default="train", help='')
     parser.add_argument('-data_size', type=int, default=10000)
-    parser.add_argument('-test_size', type=int, default=16)
+    parser.add_argument('-test_size', type=int, default=100)
     parser.add_argument('-debug', type=int, default=99, help='')
     parser.add_argument('-cuda', type=str, default="-1", help='')
     parser.add_argument('-data_path', type=str, default="data")
