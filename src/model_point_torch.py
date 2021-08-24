@@ -227,7 +227,7 @@ def parse_config():
     # Logistic related
     parser.add_argument('-num_steps', type=int, default=2000)
     parser.add_argument('-stable_check', type=int, default=1)
-    parser.add_argument('-do_evaluation', type=int, default=1)
+    parser.add_argument('-do_evaluation', type=int, default=0)
     parser.add_argument('-seed', type=int, default=666, help='')
     parser.add_argument('-gradient_accumulation_steps', type=int, default=1)
     parser.add_argument('-eval_step', type=int, default=50)
